@@ -1,0 +1,38 @@
+================================================
+
+    Nome Tabella : "Concessionario auto usate"
+
+================================================
+
+
+id_telaio (indice) - stringa - VARCHAR(17)
+
+targa - stringa - VARCHAR(7)
+
+data_immatricolazione - data - DATE
+luogo_immatricolazione - stringa - VARCHAR(100)
+
+modello - stringa - VARCHAR (100)
+marca - sringa - VARCHAR(17)
+cilindrata - intero (cm^3) - SMALLINT
+
+colore - stringa - VARCHAR(25)
+
+cavalli - intero (CA) - SMALLINT
+potenza - intero (kW) - TINYINT
+
+peso - intero (kg) - SMALLINT
+portata - intero (kg) - SMALLINT
+capienza - intero - TINYINT
+
+carburante - stringa - VARCHAR(11)
+capacità_serbatoio - intero (litri) - TINYINT
+
+classe_ambientale - stringa - VARCHAR(6)
+numero_assi - intero - TINYINT
+
+rimorchio - boolean - TINYINT
+data_tagliando - data - DATE
+chilometraggio - numero decimale - FLOAT(8,2)
+proprietario - stringa - VARCHAR(100)
+prezzo - numero decimale - FLOAT(8,2)
